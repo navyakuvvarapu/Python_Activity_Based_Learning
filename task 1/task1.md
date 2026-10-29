@@ -12,7 +12,7 @@ To develop a Python program that analyzes vehicle counts across multiple roads a
 6. Check whether the vehicle count exceeds road capacity.
 7. Display total traffic, peak traffic period, congestion levels, and overloaded roads.
 8. Stop the program.
-# Mermaid Flowchart
+# ```Mermaid Flowchart
 flowchart TD
     A([Start]) --> B[Define roads, time intervals and capacity]
     B --> C[Enter vehicle counts]
@@ -30,7 +30,7 @@ flowchart TD
     K -->|No| M[Continue analysis]
     L --> N[Display Results]
     M --> N
-    N --> O([Stop])
+    N --> O([Stop])```
 # Code
 
 # Traffic Flow and Congestion Analysis
